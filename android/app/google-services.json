@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934796108630",
+    "project_id": "en2ly-f758c",
+    "storage_bucket": "en2ly-f758c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934796108630:android:ac8b80a1236f08a739acf7",
+        "android_client_info": {
+          "package_name": "com.En2ly.en2ly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBtEI-mGnZL2s1RaThIBo-Di21oW2fGjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
