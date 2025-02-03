@@ -74,4 +74,4 @@ En2ly/
 This project is licensed under the MIT License.
 
 ## Contact
-For inquiries, contact **Marwan Hazem ** at [marwan.elzafarani@gmail.com](mailto:marwan.elzafarani@gmail.com).
+For inquiries, contact **Marwan Hazem** at [marwan.elzafarani@gmail.com](mailto:marwan.elzafarani@gmail.com).
