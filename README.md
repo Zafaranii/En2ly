@@ -1,44 +1,77 @@
-# En2ly 🚀  
-**A cashless-friendly transportation solution**  
+# En2ly
 
-En2ly is a Flutter-based ride-hailing application designed to facilitate cashless transactions, enhance user experience, and optimize routes using OpenStreetMap (OSM). The system consists of two apps:  
-- **En2ly (Passenger App)** – For users to request rides.  
-- **En2ly Driver** – For drivers to accept and complete ride requests.  
+## Overview
+En2ly is a mobile application designed to provide a seamless ride-hailing experience for passengers. The app allows users to request rides, track drivers in real-time, manage payments, and access trip history effortlessly.
 
-## 📌 Features  
-✅ **Cashless-friendly** (Currently no payment integration)  
-✅ **Real-time ride requests**  
-✅ **Driver and passenger matching system**  
-✅ **OpenStreetMap (OSM) Integration** (instead of Google Maps)  
-✅ **Live tracking and navigation**  
-✅ **Flutter & Firebase-based backend**  
+## Features
+- **Ride Booking**: Request a ride to any destination.
+- **Real-time Tracking**: Track driver location and estimated arrival time.
+- **Payment Integration**: Multiple payment options including card and wallet.
+- **Trip History**: View past trips and fare breakdowns.
+- **Profile Management**: Edit user details and preferences.
 
-## 🛠️ Tech Stack  
-- **Frontend:** Flutter (Dart)  
-- **Backend:** Firebase  
-- **Maps & Navigation:** OpenStreetMap (OSM)  
+## Tech Stack
+- **Frontend**: Flutter
+- **Backend**: Firebase
+- **State Management**: Provider / Riverpod (if applicable)
+- **Authentication**: Firebase Authentication
+- **Maps & Navigation**: Google Maps API
 
-## 📂 Installation & Setup  
-1. **Clone the repository:**  
-   ```bash
+## Installation
+### Prerequisites
+- Flutter SDK installed ([Download here](https://flutter.dev/docs/get-started/install))
+- Android Studio / Xcode for running the app
+- Firebase project setup (for backend functionality)
+
+### Steps
+1. Clone the repository:
+   ```sh
    git clone https://github.com/Zafaranii/En2ly.git
    cd En2ly
    ```
-2. **Install dependencies:**  
-   ```bash
+2. Install dependencies:
+   ```sh
    flutter pub get
    ```
-3. **Run the app:**  
-   ```bash
+3. Run the app:
+   ```sh
    flutter run
    ```
+   *(Ensure a simulator/emulator or physical device is connected.)*
 
-## 🚀 Contribution  
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature-branch`)  
-3. Commit changes (`git commit -m "Add new feature"`)  
-4. Push to GitHub (`git push origin feature-branch`)  
-5. Open a Pull Request  
+## Project Structure
+```
+En2ly/
+│-- lib/
+│   │-- main.dart         # Entry point of the app
+│   │-- screens/          # UI screens
+│   │-- providers/        # State management
+│   │-- services/         # Firebase and API services
+│   │-- widgets/          # Reusable UI components
+│-- assets/               # Images and other assets
+│-- pubspec.yaml          # Dependencies and configurations
+│-- android/              # Android-specific files
+│-- ios/                  # iOS-specific files
+```
 
-## 📜 License  
-This project is licensed under the **MIT License**.  
+## Contributing
+1. Fork the repository.
+2. Create a new branch:
+   ```sh
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```sh
+   git commit -m "Add new feature"
+   ```
+4. Push the branch:
+   ```sh
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For inquiries, contact **Marwan Hazem ** at [marwan.elzafarani@gmail.com](mailto:marwan.elzafarani@gmail.com).
